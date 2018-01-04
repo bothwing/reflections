@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    윈도우즈 명령어인 fc(file compare)를 사용하여 비교할 수 있다
+	(예: fc old파일 new파일, 리눅스는 diff -u old파일 new파일)
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    질문이 잘 해석이 안됨 ㅠㅠ
+	파일이 수정된 히스토리를 알게 되면 그 내용을 바탕으로 동일한 문제의 해결이나, 잘못된 수정을 정정하는 등의
+	여러 방면에서 유용하다.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    장점
+	- 무의미한 commit 이 발생하지 않는다.
+	- 사용자가 적절한 범위로 나눠서 commit 할 수 있다.
+	단점
+	- 너무 크거나 작은 양으로 commit 될 수 있다.(사용자 재량)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    하나의 프로그램을 구성하는 여러 파일이 하나의 기능, 버그 수정 등에 영향이 있는 경우 이슈 수정이라는 하나의 커밋에
+	여러 파일의 커밋이 필요하다.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log 로 커밋 목록을 보고 비교하고자 하는 id를 확인한다.
+	git diff id1 id2 로 id2를 id1과 비교하여 변경된 사항을 확인한다.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    변경된 사항이 로그로 기록되므로 잘못된 경우 변경사항을 확인하여 수정해주면 된다.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    내 프로그램의 버전관리
